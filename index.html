@@ -1,82 +1,100 @@
+<!-- Application: JavaScript Calculator -->
+<!-- Programmer: Ryan Jones -->
+<!-- Version: 02/13/2017 -->
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Calculator</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom Styles -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="container">
+      <h2>JavaScript Calculator</h2>
+      <p>Do some math</p>
+      <p id="mathArea"></p>
+      <!-- Row 1 -->
       <div class="row">
         <div class="col-md-3">
-          <button id="btnRightPara" class="outer-button">(</button>
+          <button id="btnRightPara" class="outer-button button-style">(</button>
         </div>
         <div class="col-md-3">
-          <button id="btnLeftPara" class="outer-button">)</button>
+          <button id="btnLeftPara" class="outer-button button-style">)</button>
         </div>
         <div class="col-md-3">
-          <button id="btnPercent" class="outer-button">%</button>
+          <button id="btnPercent" class="outer-button button-style">%</button>
         </div>
         <div class="col-md-3">
-          <button id="btnClear" class="outer-button">AC</button>
+          <button id="btnClear" class="outer-button button-style">AC</button>
         </div>
       </div>
+      <!-- Row 2 -->
       <div class="row">
         <div class="col-md-3">
-          <button id="btnSeven" class="outer-button">7</button>
+          <button id="btnSeven" class="inner-button button-style">7</button>
         </div>
         <div class="col-md-3">
-          <button id="btnEight" class="outer-button">8</button>
+          <button id="btnEight" class="inner-button button-style">8</button>
         </div>
         <div class="col-md-3">
-          <button id="btnNine" class="outer-button">9</button>
+          <button id="btnNine" class="inner-button button-style">9</button>
         </div>
         <div class="col-md-3">
-          <button id="btnDivide" class="outer-button">÷</button>
+          <button id="btnDivide" class="outer-button button-style">÷</button>
         </div>
       </div>
+      <!-- Row 3 -->
       <div class="row">
         <div class="col-md-3">
-          <button id="btnFour" class="outer-button">4</button>
+          <button id="btnFour" class="inner-button button-style">4</button>
         </div>
         <div class="col-md-3">
-          <button id="btnFive" class="outer-button">5</button>
+          <button id="btnFive" class="inner-button button-style">5</button>
         </div>
         <div class="col-md-3">
-          <button id="btnSix" class="outer-button">6</button>
+          <button id="btnSix" class="inner-button button-style">6</button>
         </div>
         <div class="col-md-3">
-          <button id="btnMultiply" class="outer-button">x</button>
+          <button id="btnMultiply" class="outer-button button-style">x</button>
         </div>
       </div>
+      <!-- Row 4 -->
       <div class="row">
         <div class="col-md-3">
-          <button id="btnOne" class="outer-button">1</button>
+          <button id="btnOne" class="inner-button button-style">1</button>
         </div>
         <div class="col-md-3">
-          <button id="btnTwo" class="outer-button">2</button>
+          <button id="btnTwo" class="inner-button button-style">2</button>
         </div>
         <div class="col-md-3">
-          <button id="btnThree" class="outer-button">3</button>
+          <button id="btnThree" class="inner-button button-style">3</button>
         </div>
         <div class="col-md-3">
-          <button id="btnMinus" class="outer-button">-</button>
+          <button id="btnMinus" class="outer-button button-style">-</button>
         </div>
       </div>
+      <!-- Row 5 -->
       <div class="row">
         <div class="col-md-3">
-          <button id="btnZero" class="outer-button">(</button>
+          <button id="btnZero" class="inner-button button-style">0</button>
         </div>
         <div class="col-md-3">
-          <button id="btnDecimal" class="outer-button">)</button>
+          <button id="btnDecimal" class="outer-button button-style">.</button>
         </div>
         <div class="col-md-3">
-          <button id="btnEquals" class="outer-button">%</button>
+          <button id="btnEquals" class="outer-button button-style">=</button>
         </div>
         <div class="col-md-3">
-          <button id="btnPlus" class="outer-button">AC</button>
+          <button id="btnPlus" class="outer-button button-style">+</button>
         </div>
       </div>
     </div>
 
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="scripts/scripts.js"></script>
   </body>
 </html>
